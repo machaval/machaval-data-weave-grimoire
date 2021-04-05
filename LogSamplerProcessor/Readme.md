@@ -12,3 +12,9 @@ Array<
     }
 >
 ```
+
+## Usage 
+
+```
+dw --spell machaval/LogSamplerProcessor -i payload search-results-2021-04-05T12_24_08.269-0700.csv  -o output/Samples.json
+```
