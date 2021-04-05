@@ -3,7 +3,7 @@ input payload application/csv escape='"', streaming=true
 import * from dw::core::Strings
 import * from dw::Runtime
 
-var logPrefix = 'buildTransformResponse -'
+var logPrefix = '[SAMPLING]buildTransformResponse - '
 
 fun parseScript(script) = do {
     var mainName = script.main
