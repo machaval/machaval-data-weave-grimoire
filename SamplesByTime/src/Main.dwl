@@ -31,7 +31,7 @@ output json
 payload.'_raw'
     map ((logEntry) -> read(logEntry, 'json').log) 
     filter ((logEntry) -> logEntry is Object and (logEntry.message startsWith logPrefix))
-    map ((logEntry) -> {timestamp: logEntry.timestamp, args: read(trim(logEntry.message substringAfter '-'), "application/dw", {onlyData:true})[0]}) 
+    map ((logEntry) -> {timestamp: logEntry.timestamp, args: read(trim(logEntry.message substringAfter '-'), "application/dw", {onlyData:true})[1]}) 
     map ((logEntry, index) -> do {                
         var exceptionLocation = path(path(wd(), "samplesByTime"), "$(logEntry.timestamp)")
         var requestPath = path(exceptionLocation, "request.json")

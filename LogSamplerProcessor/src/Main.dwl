@@ -22,8 +22,8 @@ output json
 payload.'_raw'
     map ((logEntry) -> read(logEntry, 'json').log) 
     filter ((logEntry) -> logEntry is Object and (logEntry.message startsWith logPrefix))
-    map ((logEntry) -> read(trim(logEntry.message substringAfter logPrefix), "application/dw", {onlyData:true}))
-    map ((scriptExecution) -> parseScript(scriptExecution[0]))
+    map ((logEntry) -> read(trim(logEntry.message substringAfter logPrefix), "application/dw", {onlyData:true})[1])
+    map ((scriptExecution) -> parseScript(scriptExecution))
    
     
 

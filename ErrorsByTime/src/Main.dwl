@@ -23,7 +23,7 @@ payload."_raw"
     filter ((logEntry) -> logEntry is Object and (logEntry.message startsWith logPrefix))
     map ((logEntry) -> {timestamp: logEntry.timestamp, value: read(trim(logEntry.message substringAfter "-"), "application/dw", {onlyData:true})})
     // filter ((logEntry) -> isBlank(f) or (logEntry.value.result.error.message contains criteria))
-    map ((logEntry, index) -> {timestamp: logEntry.timestamp, error: logEntry.value.result.error.message, args: logEntry.value.args[0]})
+    map ((logEntry, index) -> {timestamp: logEntry.timestamp, error: logEntry.value.result.error.message, args: logEntry.value.args[1]})
     map ((logEntry, index) -> do {        
         
         var exceptionLocation = path(path(path(wd(), "errorsByTime"), "$(time(logEntry.timestamp))"),trim(logEntry.error substringBefore " "))
