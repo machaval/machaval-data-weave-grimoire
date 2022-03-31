@@ -1,0 +1,202 @@
+{
+  "status": 200,
+  "statusText": "OK",
+  "headers": {
+    "Cache-Control": "no-cache, no-store, must-revalidate",
+    "Content-Type": "application/json; charset=utf-8",
+    "Request-Context": "appId=cid-v1:8314cee3-137b-4671-85f0-0ebbe0d65ec2",
+    "access-control-allow-origin": "*",
+    "access-control-max-age": "3600",
+    "access-control-allow-methods": "OPTIONS,GET,POST,PATCH,PUT,DELETE",
+    "access-control-expose-headers": "ActivityId,Request-Context",
+    "strict-transport-security": "max-age=2592000",
+    "X-Content-Type-Options": "nosniff",
+    "ActivityId": "a9795ab0-d099-490b-a78a-13166f9ed0c4",
+    "X-Powered-By": "ASP.NET",
+    "Region": "CUS",
+    "X-Cache": "CONFIG_NOCACHE",
+    "X-Geo": "VSCodeSearchQueryGlobal_ExtensionQuery",
+    "X-MSEdge-Ref": "Ref A: 302F54EABAE14875AAEC5E617D182196 Ref B: BUE30EDGE0120 Ref C: 2022-03-31T19:43:35Z",
+    "Date": "Thu, 31 Mar 2022 19:43:35 GMT",
+    "content-length": "3335"
+  },
+  "body": {
+    "results": [
+      {
+        "extensions": [
+          {
+            "publisher": {
+              "publisherId": "596ad73e-df3c-4c05-8b02-6540a67e5649",
+              "publisherName": "MuleSoftInc",
+              "displayName": "MuleSoft Inc",
+              "flags": "verified",
+              "domain": null,
+              "isDomainVerified": false
+            },
+            "extensionId": "173ab11b-e40c-4272-a946-1ce49d7d9a5c",
+            "extensionName": "dataweave",
+            "displayName": "DataWeave 2.0 (BETA)",
+            "flags": "validated, public",
+            "lastUpdated": "2022-03-29T18:56:00.34Z",
+            "publishedDate": "2022-03-09T22:46:03.417Z",
+            "releaseDate": "2022-03-09T22:46:03.417Z",
+            "shortDescription": "DataWeave 2.0 language support",
+            "versions": [
+              {
+                "version": "1.2.7",
+                "flags": "validated",
+                "lastUpdated": "2022-03-29T18:56:00.34Z",
+                "files": [
+                  {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Default",
+                    "source": "https://mulesoftinc.gallerycdn.vsassets.io/extensions/mulesoftinc/dataweave/1.2.7/1648579756575/Microsoft.VisualStudio.Services.Icons.Default"
+                  },
+                  {
+                    "assetType": "Microsoft.VisualStudio.Services.Icons.Small",
+                    "source": "https://mulesoftinc.gallerycdn.vsassets.io/extensions/mulesoftinc/dataweave/1.2.7/1648579756575/Microsoft.VisualStudio.Services.Icons.Small"
+                  }
+                ],
+                "properties": [
+                  {
+                    "key": "Microsoft.VisualStudio.Services.Links.Getstarted",
+                    "value": "https://github.com/mulesoft-labs/data-weave-language-server.git"
+                  },
+                  {
+                    "key": "Microsoft.VisualStudio.Services.Links.Support",
+                    "value": "https://github.com/mulesoft-labs/data-weave-language-server/issues"
+                  },
+                  {
+                    "key": "Microsoft.VisualStudio.Services.Links.Learn",
+                    "value": "https://github.com/mulesoft-labs/data-weave-language-server"
+                  },
+                  {
+                    "key": "Microsoft.VisualStudio.Services.Links.Source",
+                    "value": "https://github.com/mulesoft-labs/data-weave-language-server.git"
+                  },
+                  {
+                    "key": "Microsoft.VisualStudio.Services.Links.GitHub",
+                    "value": "https://github.com/mulesoft-labs/data-weave-language-server.git"
+                  },
+                  {
+                    "key": "Microsoft.VisualStudio.Code.Engine",
+                    "value": "^1.64.0"
+                  },
+                  {
+                    "key": "Microsoft.VisualStudio.Services.GitHubFlavoredMarkdown",
+                    "value": "true"
+                  },
+                  {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionDependencies",
+                    "value": ""
+                  },
+                  {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionPack",
+                    "value": ""
+                  },
+                  {
+                    "key": "Microsoft.VisualStudio.Code.LocalizedLanguages",
+                    "value": ""
+                  },
+                  {
+                    "key": "Microsoft.VisualStudio.Code.ExtensionKind",
+                    "value": "workspace"
+                  }
+                ],
+                "assetUri": "https://mulesoftinc.gallerycdn.vsassets.io/extensions/mulesoftinc/dataweave/1.2.7/1648579756575",
+                "fallbackAssetUri": "https://mulesoftinc.gallery.vsassets.io/_apis/public/gallery/publisher/MuleSoftInc/extension/dataweave/1.2.7/assetbyname"
+              }
+            ],
+            "categories": [
+              "Programming Languages"
+            ],
+            "tags": [
+              "__ext_dwl",
+              "DataWeave",
+              "data-weave",
+              "debuggers"
+            ],
+            "statistics": [
+              {
+                "statisticName": "install",
+                "value": 172
+              },
+              {
+                "statisticName": "averagerating",
+                "value": 5
+              },
+              {
+                "statisticName": "ratingcount",
+                "value": 3
+              },
+              {
+                "statisticName": "trendingdaily",
+                "value": 0
+              },
+              {
+                "statisticName": "trendingmonthly",
+                "value": 100
+              },
+              {
+                "statisticName": "trendingweekly",
+                "value": 20.76923076923077
+              },
+              {
+                "statisticName": "updateCount",
+                "value": 152
+              },
+              {
+                "statisticName": "weightedRating",
+                "value": 4.457458844826611
+              },
+              {
+                "statisticName": "downloadCount",
+                "value": 9
+              }
+            ],
+            "installationTargets": [
+              {
+                "target": "Microsoft.VisualStudio.Code",
+                "targetVersion": ""
+              }
+            ],
+            "deploymentType": 0
+          }
+        ],
+        "pagingToken": null,
+        "resultMetadata": [
+          {
+            "metadataType": "ResultCount",
+            "metadataItems": [
+              {
+                "name": "TotalCount",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "metadataType": "Categories",
+            "metadataItems": [
+              {
+                "name": "Programming Languages",
+                "count": 1
+              }
+            ]
+          },
+          {
+            "metadataType": "TargetPlatforms",
+            "metadataItems": [
+              {
+                "name": "universal",
+                "count": 1
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "cookies": {
+
+  },
+  "contentType": "application/json; charset=utf-8"
+}
