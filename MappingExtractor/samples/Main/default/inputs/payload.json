@@ -1,0 +1,519 @@
+{
+  "class": "DocumentNode",
+  "children": [
+    {
+      "class": "HeaderNode",
+      "children": [
+        {
+          "class": "OutputDirective",
+          "children": [
+            {
+              "class": "ContentType",
+              "value": "application/json"
+            }
+          ]
+        },
+        {
+          "class": "VarDirective",
+          "children": [
+            {
+              "class": "NameIdentifier",
+              "value": "a"
+            },
+            {
+              "class": "NumberNode",
+              "value": "123"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "class": "ObjectNode",
+      "children": [
+        {
+          "class": "KeyValuePairNode",
+          "children": [
+            {
+              "class": "KeyNode",
+              "children": [
+                {
+                  "class": "StringNode",
+                  "value": "a"
+                }
+              ]
+            },
+            {
+              "class": "NullSafeNode",
+              "children": [
+                {
+                  "class": "BinaryOpNode",
+                  "value": "ValueSelectorOpId$",
+                  "children": [
+                    {
+                      "class": "VariableReferenceNode",
+                      "children": [
+                        {
+                          "class": "NameIdentifier",
+                          "value": "payload"
+                        }
+                      ]
+                    },
+                    {
+                      "class": "NameNode",
+                      "children": [
+                        {
+                          "class": "StringNode",
+                          "value": "name"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "KeyValuePairNode",
+          "children": [
+            {
+              "class": "KeyNode",
+              "children": [
+                {
+                  "class": "StringNode",
+                  "value": "b"
+                }
+              ]
+            },
+            {
+              "class": "FunctionCallNode",
+              "children": [
+                {
+                  "class": "VariableReferenceNode",
+                  "children": [
+                    {
+                      "class": "NameIdentifier",
+                      "value": "map"
+                    }
+                  ]
+                },
+                {
+                  "class": "FunctionCallParametersNode",
+                  "children": [
+                    {
+                      "class": "NullSafeNode",
+                      "children": [
+                        {
+                          "class": "BinaryOpNode",
+                          "value": "ValueSelectorOpId$",
+                          "children": [
+                            {
+                              "class": "VariableReferenceNode",
+                              "children": [
+                                {
+                                  "class": "NameIdentifier",
+                                  "value": "payload"
+                                }
+                              ]
+                            },
+                            {
+                              "class": "NameNode",
+                              "children": [
+                                {
+                                  "class": "StringNode",
+                                  "value": "z"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "FunctionNode",
+                      "children": [
+                        {
+                          "class": "FunctionParameters",
+                          "children": [
+                            {
+                              "class": "FunctionParameter",
+                              "children": [
+                                {
+                                  "class": "NameIdentifier",
+                                  "value": "a"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "ObjectNode",
+                          "children": [
+                            {
+                              "class": "KeyValuePairNode",
+                              "children": [
+                                {
+                                  "class": "KeyNode",
+                                  "children": [
+                                    {
+                                      "class": "StringNode",
+                                      "value": "ba"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "FunctionCallNode",
+                                  "children": [
+                                    {
+                                      "class": "VariableReferenceNode",
+                                      "children": [
+                                        {
+                                          "class": "NameIdentifier",
+                                          "value": "lower"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "class": "FunctionCallParametersNode",
+                                      "children": [
+                                        {
+                                          "class": "NullSafeNode",
+                                          "children": [
+                                            {
+                                              "class": "BinaryOpNode",
+                                              "value": "ValueSelectorOpId$",
+                                              "children": [
+                                                {
+                                                  "class": "VariableReferenceNode",
+                                                  "children": [
+                                                    {
+                                                      "class": "NameIdentifier",
+                                                      "value": "a"
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "class": "NameNode",
+                                                  "children": [
+                                                    {
+                                                      "class": "StringNode",
+                                                      "value": "z"
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "KeyValuePairNode",
+                              "children": [
+                                {
+                                  "class": "KeyNode",
+                                  "children": [
+                                    {
+                                      "class": "StringNode",
+                                      "value": "bd"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "NullSafeNode",
+                                  "children": [
+                                    {
+                                      "class": "BinaryOpNode",
+                                      "value": "ValueSelectorOpId$",
+                                      "children": [
+                                        {
+                                          "class": "BinaryOpNode",
+                                          "value": "ValueSelectorOpId$",
+                                          "children": [
+                                            {
+                                              "class": "VariableReferenceNode",
+                                              "children": [
+                                                {
+                                                  "class": "NameIdentifier",
+                                                  "value": "a"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "class": "NameNode",
+                                              "children": [
+                                                {
+                                                  "class": "StringNode",
+                                                  "value": "t"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "class": "NameNode",
+                                          "children": [
+                                            {
+                                              "class": "StringNode",
+                                              "value": "z"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "class": "KeyValuePairNode",
+          "children": [
+            {
+              "class": "KeyNode",
+              "children": [
+                {
+                  "class": "StringNode",
+                  "value": "c"
+                }
+              ]
+            },
+            {
+              "class": "FunctionCallNode",
+              "children": [
+                {
+                  "class": "VariableReferenceNode",
+                  "children": [
+                    {
+                      "class": "NameIdentifier",
+                      "value": "map"
+                    }
+                  ]
+                },
+                {
+                  "class": "FunctionCallParametersNode",
+                  "children": [
+                    {
+                      "class": "FunctionCallNode",
+                      "children": [
+                        {
+                          "class": "VariableReferenceNode",
+                          "children": [
+                            {
+                              "class": "NameIdentifier",
+                              "value": "filter"
+                            }
+                          ]
+                        },
+                        {
+                          "class": "FunctionCallParametersNode",
+                          "children": [
+                            {
+                              "class": "NullSafeNode",
+                              "children": [
+                                {
+                                  "class": "BinaryOpNode",
+                                  "value": "ValueSelectorOpId$",
+                                  "children": [
+                                    {
+                                      "class": "VariableReferenceNode",
+                                      "children": [
+                                        {
+                                          "class": "NameIdentifier",
+                                          "value": "payload"
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "class": "NameNode",
+                                      "children": [
+                                        {
+                                          "class": "StringNode",
+                                          "value": "z"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "BinaryOpNode",
+                              "value": "GreaterThanOpId$",
+                              "children": [
+                                {
+                                  "class": "VariableReferenceNode",
+                                  "children": [
+                                    {
+                                      "class": "NameIdentifier",
+                                      "value": "$"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "NumberNode",
+                                  "value": "1"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "class": "ObjectNode",
+                      "children": [
+                        {
+                          "class": "KeyValuePairNode",
+                          "children": [
+                            {
+                              "class": "KeyNode",
+                              "children": [
+                                {
+                                  "class": "StringNode",
+                                  "value": "ca"
+                                }
+                              ]
+                            },
+                            {
+                              "class": "FunctionCallNode",
+                              "children": [
+                                {
+                                  "class": "VariableReferenceNode",
+                                  "children": [
+                                    {
+                                      "class": "NameIdentifier",
+                                      "value": "++"
+                                    }
+                                  ]
+                                },
+                                {
+                                  "class": "FunctionCallParametersNode",
+                                  "children": [
+                                    {
+                                      "class": "NullSafeNode",
+                                      "children": [
+                                        {
+                                          "class": "BinaryOpNode",
+                                          "value": "ValueSelectorOpId$",
+                                          "children": [
+                                            {
+                                              "class": "VariableReferenceNode",
+                                              "children": [
+                                                {
+                                                  "class": "NameIdentifier",
+                                                  "value": "$"
+                                                }
+                                              ]
+                                            },
+                                            {
+                                              "class": "NameNode",
+                                              "children": [
+                                                {
+                                                  "class": "StringNode",
+                                                  "value": "z"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "class": "StringNode",
+                                      "value": "test"
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "class": "KeyValuePairNode",
+                          "children": [
+                            {
+                              "class": "KeyNode",
+                              "children": [
+                                {
+                                  "class": "StringNode",
+                                  "value": "cd"
+                                }
+                              ]
+                            },
+                            {
+                              "class": "NullSafeNode",
+                              "children": [
+                                {
+                                  "class": "BinaryOpNode",
+                                  "value": "ValueSelectorOpId$",
+                                  "children": [
+                                    {
+                                      "class": "BinaryOpNode",
+                                      "value": "ValueSelectorOpId$",
+                                      "children": [
+                                        {
+                                          "class": "VariableReferenceNode",
+                                          "children": [
+                                            {
+                                              "class": "NameIdentifier",
+                                              "value": "$"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "class": "NameNode",
+                                          "children": [
+                                            {
+                                              "class": "StringNode",
+                                              "value": "t"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "class": "NameNode",
+                                      "children": [
+                                        {
+                                          "class": "StringNode",
+                                          "value": "z"
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "class": "BooleanNode",
+                              "value": "false"
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
