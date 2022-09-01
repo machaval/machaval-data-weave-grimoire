@@ -11,27 +11,11 @@ fun extensionOf(mimeType: String): String =
     (entriesOf(FILE_EXTENSIONS)
         filter ((entry) -> entry.value == mimeType))[0].key as String default ".json"
 
-fun parseScript(script) = do {
-    var mainName = script.main
-    var scriptContent = script.fs[mainName]!
-    ---
-    try(() -> (read(scriptContent, "application/dw", {astMode: true})))
-        then ((result) -> {
-            success: result.success,
-            ast: result.result,
-            script: script
-        })
-}
-
-fun time(timestamp) =
-    timestamp as DateTime as String {format: "yyy-MM-dd'T'hh:mm"}
-
 output json
 ---
-payload.'_raw'
-    map ((logEntry) -> read(logEntry, 'json').log)
-    filter ((logEntry) -> logEntry is Object and (logEntry.message matches logPrefix))
-    map ((logEntry) -> {timestamp: logEntry.timestamp, args: read(trim(logEntry.message substringAfter '-'), "application/dw", {onlyData:true})[1]})
+payload
+    filter ((logEntry) -> logEntry.logMessage matches logPrefix)
+    map ((logEntry) -> {timestamp: logEntry.'_time', args: read(trim(logEntry.logMessage substringAfter '-'), "application/dw", {onlyData:true})[1]})
     map ((logEntry, index) -> do {
         var exceptionLocation = path(path(wd(), "samplesByTime"), "$(logEntry.timestamp)_$(index)")
         var requestPath = path(exceptionLocation, "request.json")
