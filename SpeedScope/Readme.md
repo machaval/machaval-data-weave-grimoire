@@ -8,7 +8,7 @@ To produce an event.log the user needs to run with the `--telemetry` flag enable
 
 ## Step 1: Run the spell
 
-`dw  -i payload <pathToEvent.log> --spell SpeedScope -o ./MyFile.txt`
+`dw  -i payload <pathToEvent.log> --spell machaval/SpeedScope -o ./MyFile.txt`
 
 ## Step 2: Go to load the spell
 
