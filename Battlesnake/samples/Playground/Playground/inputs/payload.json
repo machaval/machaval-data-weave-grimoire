@@ -1,0 +1,317 @@
+{
+  "game": {
+    "id": "b53608792e024055915",
+    "ruleset": {
+      "name": "Chauncey",
+      "version": "ipsum",
+      "settings": {
+        "foodSpawnChance": 84,
+        "minimumFood": 45,
+        "hazardDamagePerTurn": 12,
+        "royale": {
+          "shrinkEveryNTurns": 77
+        },
+        "squad": {
+          "allowBodyCollisions": false,
+          "sharedElimination": true,
+          "sharedHealth": true,
+          "sharedLength": false
+        }
+      }
+    },
+    "map": "quia",
+    "source": "enim",
+    "timeout": 8
+  },
+  "turn": 62,
+  "board": {
+    "height": 28,
+    "width": 26,
+    "food": [
+      {
+        "x": 37,
+        "y": 67
+      },
+      {
+        "x": 58,
+        "y": 3
+      },
+      {
+        "x": 43,
+        "y": 93
+      },
+      {
+        "x": 11,
+        "y": 76
+      },
+      {
+        "x": 57,
+        "y": 44
+      }
+    ],
+    "hazards": [
+      {
+        "x": 3,
+        "y": 87
+      },
+      {
+        "x": 77,
+        "y": 21
+      },
+      {
+        "x": 6,
+        "y": 67
+      },
+      {
+        "x": 83,
+        "y": 71
+      },
+      {
+        "x": 89,
+        "y": 26
+      }
+    ],
+    "snakes": [
+      {
+        "id": "3facfbf22b114aa7a9a",
+        "name": "Alfreda",
+        "health": 28,
+        "body": [
+          {
+            "x": 90,
+            "y": 82
+          },
+          {
+            "x": 36,
+            "y": 49
+          },
+          {
+            "x": 92,
+            "y": 84
+          },
+          {
+            "x": 73,
+            "y": 11
+          },
+          {
+            "x": 67,
+            "y": 67
+          }
+        ],
+        "latency": "qui",
+        "head": {
+          "x": 55,
+          "y": 72
+        },
+        "length": 57,
+        "shout": "sunt",
+        "squad": "in",
+        "customizations": {
+          "color": "ut",
+          "head": "quis",
+          "tail": "modi"
+        }
+      },
+      {
+        "id": "77903c5d3d7142a7bf7",
+        "name": "Cecil",
+        "health": 38,
+        "body": [
+          {
+            "x": 20,
+            "y": 8
+          },
+          {
+            "x": 67,
+            "y": 10
+          },
+          {
+            "x": 7,
+            "y": 5
+          },
+          {
+            "x": 51,
+            "y": 2
+          },
+          {
+            "x": 43,
+            "y": 83
+          }
+        ],
+        "latency": "ad",
+        "head": {
+          "x": 36,
+          "y": 54
+        },
+        "length": 67,
+        "shout": "consequuntur",
+        "squad": "beatae",
+        "customizations": {
+          "color": "qui",
+          "head": "ullam",
+          "tail": "unde"
+        }
+      },
+      {
+        "id": "d5844e5322a64e3e8df",
+        "name": "Chung",
+        "health": 62,
+        "body": [
+          {
+            "x": 86,
+            "y": 73
+          },
+          {
+            "x": 89,
+            "y": 23
+          },
+          {
+            "x": 60,
+            "y": 50
+          },
+          {
+            "x": 52,
+            "y": 21
+          },
+          {
+            "x": 52,
+            "y": 47
+          }
+        ],
+        "latency": "Ut",
+        "head": {
+          "x": 28,
+          "y": 27
+        },
+        "length": 43,
+        "shout": "Lorem",
+        "squad": "est",
+        "customizations": {
+          "color": "adipisci",
+          "head": "consequatur,",
+          "tail": "quia"
+        }
+      },
+      {
+        "id": "2c0193bb667b48c0868",
+        "name": "Alesia",
+        "health": 24,
+        "body": [
+          {
+            "x": 5,
+            "y": 90
+          },
+          {
+            "x": 60,
+            "y": 57
+          },
+          {
+            "x": 26,
+            "y": 68
+          },
+          {
+            "x": 25,
+            "y": 88
+          },
+          {
+            "x": 10,
+            "y": 94
+          }
+        ],
+        "latency": "sunt",
+        "head": {
+          "x": 14,
+          "y": 87
+        },
+        "length": 55,
+        "shout": "Excepteur",
+        "squad": "eu",
+        "customizations": {
+          "color": "quae",
+          "head": "amet,",
+          "tail": "pariatur."
+        }
+      },
+      {
+        "id": "a807fdf095ce4776b90",
+        "name": "Adrien",
+        "health": 40,
+        "body": [
+          {
+            "x": 60,
+            "y": 69
+          },
+          {
+            "x": 38,
+            "y": 6
+          },
+          {
+            "x": 40,
+            "y": 84
+          },
+          {
+            "x": 79,
+            "y": 19
+          },
+          {
+            "x": 45,
+            "y": 2
+          }
+        ],
+        "latency": "commodi",
+        "head": {
+          "x": 58,
+          "y": 74
+        },
+        "length": 28,
+        "shout": "voluptatem",
+        "squad": "enim",
+        "customizations": {
+          "color": "quo",
+          "head": "quo",
+          "tail": "magna"
+        }
+      }
+    ]
+  },
+  "you": {
+    "id": "d3fbd5e77f4543868b8",
+    "name": "Courtney",
+    "health": 27,
+    "body": [
+      {
+        "x": 65,
+        "y": 44
+      },
+      {
+        "x": 2,
+        "y": 49
+      },
+      {
+        "x": 77,
+        "y": 2
+      },
+      {
+        "x": 83,
+        "y": 9
+      },
+      {
+        "x": 99,
+        "y": 98
+      }
+    ],
+    "latency": "dolore",
+    "head": {
+      "x": 88,
+      "y": 97
+    },
+    "length": 12,
+    "shout": "ipsum",
+    "squad": "quia",
+    "customizations": {
+      "color": "dicta",
+      "head": "veniam,",
+      "tail": "enim"
+    }
+  }
+}
