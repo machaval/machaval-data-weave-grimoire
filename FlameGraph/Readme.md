@@ -6,4 +6,4 @@ To produce an event.log the user needs to run with the `--telemetry` flag enable
 
 # HOW TO RUN IT
 
-`dw --eval -i payload <pathToEvent.log> --spell machaval/FlameGraph`
+`dw spell --eval  -i payload=<pathToEvent.log> machaval/FlameGraph`
