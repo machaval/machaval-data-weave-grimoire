@@ -1,4 +1,5 @@
 %dw 2.6
+type InputParams = {action: String, days?: String}
 type Data = {
     "firstName": String,
     "lastName": String,
@@ -23,7 +24,7 @@ type HData = {
     "owner": String,
     "ticker": String,
     "assetDescription": String,
-    "type": String,
+    "type": "Sale" | "Purchase",
     "amount": String,
     "representative": String,
     "district": String,
@@ -41,6 +42,9 @@ type Transaction = {
     link: String 
 }
 
+
+fun dateRange(params: InputParams): Number = 
+ (params.days default 45) as Number
 
 fun dataToTransactions(data: Array<Data>): Array<Transaction> = do {
         data map ((item, index) -> {

@@ -13,3 +13,6 @@ Example: dw spell machaval/StockWatcher -p action="trend_by_users" -o ./stock-wa
 Example: dw spell machaval/StockWatcher -p action="trend_by_money" -o ./stock-watcher/trends_by_money.json -i stocks=./stock-watcher/stocks.json
 * pelosi: 
 Example: dw spell machaval/StockWatcher -p action="pelosi" -o ./stock-watcher/pelosi.json -i stocks=./stock-watcher/stocks.json
+
+
+The default date range of the processing data is 45 days but it can be changed by using -p days=365 for example to look at the last year
